@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="6" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-10-25T21:11:38" hostname="localhost">
+  <testsuite name="com.fieldnotes.testing.ItemCategoryTest" tests="1" failures="0" errors="0" skipped="0" time="3.812" timestamp="2026-10-25T21:11:38" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="renameItemUpdatesLibrary" classname="com.fieldnotes.testing.ItemCategoryTest" time="3.812" />
+  </testsuite>
+  <testsuite name="com.fieldnotes.testing.PlanFlowTest" tests="1" failures="0" errors="0" skipped="0" time="1.702" timestamp="2026-10-25T21:11:38" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="checkingUpdatesProgressAndRedDotState" classname="com.fieldnotes.testing.PlanFlowTest" time="1.702" />
+  </testsuite>
+  <testsuite name="com.fieldnotes.testing.TemplateFlowTest" tests="1" failures="0" errors="0" skipped="0" time="1.844" timestamp="2026-10-25T21:11:38" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="removeTemplateItemThenUndo" classname="com.fieldnotes.testing.TemplateFlowTest" time="1.844" />
+  </testsuite>
+  <testsuite name="com.fieldnotes.testing.TransferImportTest" tests="3" failures="0" errors="0" skipped="0" time="0.073" timestamp="2026-10-25T21:11:38" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="mergeImportInsertsThenSkipsOnSecondRun" classname="com.fieldnotes.testing.TransferImportTest" time="0.040" />
+    <testcase name="replaceImportClearsLocalDataFirst" classname="com.fieldnotes.testing.TransferImportTest" time="0.021" />
+    <testcase name="gzipExportIsReadable" classname="com.fieldnotes.testing.TransferImportTest" time="0.012" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.kotlin/
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 签名与密钥（不入库）
+android/keystore.properties
+android/keystore/
+*.jks
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.gradle/
+.vscode/
+
+# 本机测试会话 / 分析产物（含对话记录，绝不入库）
+.dsh-analysis/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

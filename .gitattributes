@@ -1,0 +1,10 @@
+# 统一文本换行；图片 / jar / 密钥按二进制处理
+* text=auto eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jar binary
+*.jks binary
+*.keystore binary

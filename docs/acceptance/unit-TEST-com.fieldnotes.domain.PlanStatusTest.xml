@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fieldnotes.domain.PlanStatusTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-25T22:10:19.412Z" hostname="DESKTOP-KVJ2EN9" time="0.011">
+  <properties/>
+  <testcase name="redDotRule" classname="com.fieldnotes.domain.PlanStatusTest" time="0.001"/>
+  <testcase name="past" classname="com.fieldnotes.domain.PlanStatusTest" time="0.009"/>
+  <testcase name="ongoingOnEndDay" classname="com.fieldnotes.domain.PlanStatusTest" time="0.0"/>
+  <testcase name="upcoming" classname="com.fieldnotes.domain.PlanStatusTest" time="0.0"/>
+  <testcase name="ongoingOnStartDay" classname="com.fieldnotes.domain.PlanStatusTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

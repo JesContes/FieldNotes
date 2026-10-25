@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 纸笺 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,26 h36 a9,9 0 0 1 9,9 v38 a9,9 0 0 1 -9,9 h-36 a9,9 0 0 1 -9,-9 v-38 a9,9 0 0 1 9,-9 z" />
+    <!-- 折角 -->
+    <path
+        android:fillColor="#E3F4FE"
+        android:pathData="M63,26 h9 a9,9 0 0 1 9,9 v9 h-18 z" />
+    <!-- 清单线 -->
+    <path
+        android:strokeColor="#D6E8F5"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M37,49 h20 M37,60 h25 M37,71 h15" />
+    <!-- 勾选 -->
+    <path
+        android:fillColor="#66CCFF"
+        android:pathData="M37,73 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,73 l4,4 l8,-9" />
+</vector>
